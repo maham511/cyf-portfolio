@@ -4,8 +4,9 @@ import './main.css';
 export const Main = () => {
   return (
     <main>
-      <div className='main-wrapper'>
+      <div className="main-wrapper">
         <div className="main-container">
+          <i class="fas fa-thumbs-up fa-5x"></i>
           <h2>About Me </h2>
           <p>Loreme iasf lja gla ljaja ljeljal j ajehhdiejdal</p>
         </div>

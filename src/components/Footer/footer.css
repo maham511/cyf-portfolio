@@ -1,0 +1,6 @@
+footer {
+  text-align: center;
+  font-size: calc(var(--font-size-base) * 0.75);
+  background-color: var(--medium-shade);
+  padding: var(--spacing-base);
+}
