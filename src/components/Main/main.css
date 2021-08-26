@@ -1,0 +1,20 @@
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main-container {
+  padding: calc(var(--spacing-base) * 2);
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+@media only screen and (min-width: 992px) {
+  .main-wrapper {
+    flex-direction: row;
+  }
+}
+
